@@ -5,6 +5,10 @@ import { AppComponent } from './app.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ContentComponent } from './content/content.component';
+import { DirectivasComponent } from './components/directivas/directivas.component';
+import { DirectivaPersonalizadaDirective } from './directives/directiva-personalizada.directive';
+import { DirectivasDesafioComponent } from './Desafio2/directivas-desafio/directivas-desafio.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -12,9 +16,13 @@ import { ContentComponent } from './content/content.component';
     ToolbarComponent,
     NavbarComponent,
     ContentComponent,
+    DirectivasComponent,
+    DirectivaPersonalizadaDirective,
+    DirectivasDesafioComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
