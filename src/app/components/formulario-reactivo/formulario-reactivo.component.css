@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.contenedorFormulario {
+    text-align: center;
+    background-color: beige;
+    width: 40%;
+}
+
+p {
+    color: red;
+}
