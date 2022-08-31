@@ -2,7 +2,8 @@
     display: grid;
     grid-template-areas: 
     'header header header header header header'
-    'menu   main   main   main   main   main';
+    'menu   main   main   main   main   main'
+    'menu   cont   cont   cont   cont   cont';
 }
 
 .grid-header {
@@ -15,4 +16,8 @@
 
 .grid-content {
     grid-area: main;
+}
+
+.grid-contenido {
+    grid-area: cont;
 }
